@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">chat</string>
+    <string name="connection_error">Ошибка соединения</string>
+    <string name="join">присоединиться</string>
+    <string name="nickname_error">Введите nickname</string>
+    <string name="send">Отправить</string>
+</resources>

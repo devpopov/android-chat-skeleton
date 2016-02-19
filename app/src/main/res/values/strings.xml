@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">chat</string>
+
+    <string name="connection_error">Connection error</string>
+    <string name="nickname">nickname</string>
+    <string name="join">join</string>
+    <string name="nickname_error">Enter a nickname</string>
+    <string name="send">Send</string>
+</resources>
