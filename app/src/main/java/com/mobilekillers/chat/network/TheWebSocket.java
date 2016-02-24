@@ -20,7 +20,7 @@ public class TheWebSocket {
     private WebSocketClient mWebSocket = null;
     private Context mContext = null;
 
-    private String mUri = "ws://kraken-test-socksjs.herokuapp.com/echo/websocket";
+    private String mUri = null;
 
     private boolean mIsOpen = false;
 
@@ -110,8 +110,10 @@ public class TheWebSocket {
         return mIsOpen;
     }
 
-    public TheWebSocket(Context context) {
+    public TheWebSocket(Context context, String uri) {
         mContext = context;
+
+        mUri = uri;
 
         recreate();
     }

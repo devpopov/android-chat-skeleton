@@ -13,7 +13,7 @@ public class NetworkModule {
     private TheWebSocket mWebSocket;
 
     public NetworkModule(Context context) {
-        mWebSocket = new TheWebSocket(context);
+        mWebSocket = new TheWebSocket(context, "<put your url here>");
     }
 
     @Provides
